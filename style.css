@@ -198,12 +198,11 @@ form{
     padding-top: 10px;
     margin-bottom: 30px;
 }
+#form-button{
+    transform: translate(100%,0);
+}
 #leave-message{
     text-align: center;
     margin: 40px 0px;
 }
-h5{
-    font-size: 20px;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 3px;
-}
+
