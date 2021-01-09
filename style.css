@@ -72,11 +72,12 @@ h1{
     padding: 10px 20px;
     margin: 20px 0px;
     font-weight: 600;
+    text-align: center;
 
 
 }
 
-div a:hover{
+a:hover{
     color: darkblue;
 
 }
@@ -167,4 +168,42 @@ h2{
 #chat-button{
     margin-top: 60px;
     
+}
+
+.contact-box{
+    width: 500px;
+    background-color: #4936C3;
+    box-shadow: 10px 10px 40px gray;
+    transform: translate(100%,0);
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+form{
+    margin: 35px;
+    
+    
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 10px;
+    outline: none;
+}
+.message-field{
+    height: 150px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+#leave-message{
+    text-align: center;
+    margin: 40px 0px;
+}
+h5{
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
 }
